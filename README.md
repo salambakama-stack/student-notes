@@ -26,6 +26,7 @@ https://salambakama-stack.github.io/student-notes/2026-07-25/
 
 ## 目前已發布筆記
 
+- [2026-07-26｜從體位法到調息：觀察身體，調節呼吸](./2026-07-26/)
 - [2026-07-25｜體位法到調息法](./2026-07-25/)
 
 ## 固定資料夾結構
@@ -35,6 +36,12 @@ https://salambakama-stack.github.io/student-notes/2026-07-25/
 ```text
 student-notes/
 ├── index.html
+├── 2026-07-26/
+│   ├── index.html
+│   ├── 從體位法到調息_全天學員複習筆記.md
+│   ├── 從體位法到調息_全天學員複習筆記.html
+│   ├── 從體位法到調息_全天學員複習筆記.pdf
+│   └── CURRENT.md
 ├── 2026-07-25/
 │   ├── index.html
 │   └── 體位法到調息法_學員複習筆記.pdf
