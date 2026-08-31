@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>學生課程筆記</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #26231f;
+      --muted: #6d675f;
+      --line: #ddd6cc;
+      --paper: #fbfaf7;
+      --accent: #385f57;
+      --accent-soft: #e5efeb;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+      line-height: 1.7;
+      color: var(--ink);
+      background: var(--paper);
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0 72px;
+    }
+    header {
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--line);
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 2rem;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+    }
+    section {
+      padding-top: 32px;
+    }
+    h2 {
+      margin: 0 0 18px;
+      font-size: 1.15rem;
+      letter-spacing: 0;
+    }
+    .note-list {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .note-link {
+      display: grid;
+      gap: 4px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      color: inherit;
+      text-decoration: none;
+    }
+    .note-link:hover,
+    .note-link:focus {
+      border-color: var(--accent);
+      outline: none;
+      box-shadow: 0 0 0 3px var(--accent-soft);
+    }
+    .date {
+      color: var(--accent);
+      font-size: 0.95rem;
+      font-weight: 700;
+    }
+    .title {
+      font-size: 1.08rem;
+      font-weight: 700;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>學生課程筆記</h1>
+      <p>這裡收錄已定案、可分享給學生閱讀的課後複習筆記。</p>
+    </header>
+
+    <section aria-labelledby="published-notes">
+      <h2 id="published-notes">已發布</h2>
+      <ul class="note-list">
+        <li>
+          <a class="note-link" href="./2026-07-25/">
+            <span class="date">2026/07/25</span>
+            <span class="title">體位法到調息法</span>
+            <span class="meta">授課老師：Nandaji｜地點：新莊禪圓瑜珈工作室</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
